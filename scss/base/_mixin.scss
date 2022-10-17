@@ -1,0 +1,28 @@
+@mixin KaushanScript {
+    @font-face  {
+        font-family: KaushanScript;
+        src: url('../../fonts/KaushanScript-Regular.ttf');
+    }
+}
+
+@mixin Montserrat{
+    @font-face {
+        font-family: Montserrat;
+        src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+    }
+}
+
+@mixin roboto{
+    @font-face {
+        font-family: Roboto;
+        src: url('../../fonts/Roboto-Regular.ttf');
+    }
+}
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+  }
+
+  @mixin for-tablet {
+    @media (max-width: 992px) { @content; }
+  }

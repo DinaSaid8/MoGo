@@ -1,0 +1,22 @@
+@import 'var';
+%after{
+    content: "";
+    background-color:$borderColor ;
+    width: 2em;
+    height: .1em;
+    position: absolute;
+    top: 30% ;
+    margin: 2em;
+    left: 41%;
+}
+%after2{
+    content: "";
+    position: absolute;
+    left: 24%;
+    bottom: 31%;
+    width: 2em;
+    height: .1em;
+    background-color: #f38181;
+    
+
+}
